@@ -1,0 +1,239 @@
+
+body{
+    margin:5px 250px;
+  }
+.nav1 {
+        background-color: black;
+        overflow: hidden;
+      }
+.nav1 a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+      }
+      
+.image1{
+    float:right;
+    width:50px;
+    height:48px;
+}
+.table1{
+    border: 2px solid rgb(217, 144, 8);
+    padding: 5px 5px;
+    width: 50%;
+    margin:20px 250px;
+    overflow:scroll;
+    border-style: outset;
+    scrollbar-width: none;
+
+}
+
+@media (max-width : 1008px){
+  .table1{
+    margin: 10px 30px;
+    width: 89%;
+  }
+  .form1{
+    width:430px !important;
+    margin-left:40px !important;
+  }
+.button{
+  margin-left: 150px !important;
+}
+  #demo{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 512px !important;
+    margin-top: 200px;
+}
+
+.card{
+  display: flex !;
+  flex-direction: column;
+  height: 280px !important;
+  width: 552px !important;
+  align-items: center;
+  margin-top: 30px !important ;
+
+}
+
+#module h1.moduleheading {
+  color: #131211;
+  padding: 210px !important;
+  width: 150px;
+  margin-top: -170px;
+}
+.card img{
+  margin-bottom: 30px;
+}
+  footer{
+  margin-top: 450px !important;
+  }
+}
+
+#Btn{
+    padding: 5px;
+    margin: 10px;
+}
+
+
+#module h1.moduleheading{
+    
+    
+    color: #131211;
+    text-align: center;
+    
+    padding: 20px;
+}
+
+#demo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90px;
+    width: 342px;
+    margin-left: 310px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+#demo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #fff;
+    
+}
+/*
+.card img.hover{
+    display: none;
+    
+}
+
+.card:hover > img.normal{
+    display: none;
+}
+
+.card:hover > img.hover{
+    display: block;
+    transform: scale(1.1);
+} */
+
+footer {
+    margin-top: 130px;
+    text-align: center;
+    background-color: rgb(153, 146, 141);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    padding:7px;
+    text-decoration: none;
+    border-radius: 25%;
+  }
+  
+  .form1{
+    border: 2px solid rgb(223, 217, 217);
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    width:500px;
+   
+    box-shadow: 1px 2px 11px 5px;
+  }
+
+  .form1 #name,#email,#country,#text{
+    width:100%;
+    border: #fff;
+    border-radius: 5px;
+    background-color: #e7e5e4;
+    resize: none;
+   
+  }
+
+  .row span:hover{
+    color: rgb(159, 93, 35);
+  }
+
+  #send{
+   
+    margin-top: 20px;
+    height: 30px;
+    color:black;
+    border-radius: 20%;
+    
+  }
+  
+  #backhome{
+    border-radius: 20%;
+    margin-left: 0%;
+    height: 30px;
+    margin-top: 20px;
+
+  }
+  
+
+.form2{
+    width:100%;
+    border: #665e5e;
+    border-radius: 5px;
+  box-sizing: border-box;
+  }
+
+
+  .form2{
+    
+    margin-top:0px;
+   
+    padding: 20px;
+    width:500px;
+    margin-left:0px; 
+  }
+
+.form2 #weight,#height{
+    width:50%;
+    border-radius: 5px;
+    background-color: #eaeae2;
+    
+  }
+  
+
+  .formLogin{
+    
+    margin-top: 160px;
+    margin-right: 190px;
+    /* padding: 20px; */
+    /* width: 500px; */
+    margin-left: 240px;
+    
+    
+  }
+
+  .formLogin #Password,#UserEmail{
+    width:100%;
+    border: #665e5e;
+    border-radius: 5px;
+    background-color: #d7d7d0;
+    
+  }
+
+.LoginBtn{
+    margin-left: 200px;
+
+    background-color:skyblue; 
+    font-size:18px; 
+    
+}
+  

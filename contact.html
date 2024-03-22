@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gainsight-PX</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+
+
+</head>
+
+<body>
+    <h1 style=" text-align: center; font-weight: 100;color: rgb(217, 144, 8);">Gainsight PX</h1>
+    <div class="nav1">
+
+        <a href="./index.html">About</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./bmi.html">BMI</a>
+        <a href="./login.html" onclick="logout()">Logout</a>
+        <img class="image1" src="image1.jpeg">
+        <link href="style.css" rel="stylesheet">
+
+    </div>
+
+    <center>
+        <div class="form1">
+            <form>
+                <label style="float:left" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="enter your name..."><br><br>
+
+
+                <label style="float:left" for="email">Email<span style="color:red">*</span></label>
+                <input type="text" placeholder="enter your email address..." class="email" id="email" required>
+
+                <div style="padding-top: 7px;">
+
+                    <label style="float:left" for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="Select">Select</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">India</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                <div style="padding-top: 10px;">
+                    <label style="float:left" for="Gender" id="test">Gender</label><br>
+                    <input style="float:left" type="radio" id="M" name="gender1">
+                    <label style="float:left" for="M">Male</label>
+                    <input style="float:left" type="radio" id="F" name="gender1">
+                    <label style="float:left" for="F">Female</label><br>
+
+                </div>
+                <div style="padding-top: 10px">
+                    <label style="float:left" for="Product">Opt for preferred products</label> <br>
+                    <input style="float:left"type="checkbox" id="CS1" name="CS1" value="CS">
+                    <label style="float:left" for="CS1"> Customer Success</label> <br>
+                    <input style="float:left; margin-left: -15px;" type="checkbox" id="CC1" name="CC1" value="CC">
+                    <label  style="float:left"for="CC1"> Customer Communities</label> <br>
+                    <input style="float:left; margin-left: -15px;" type="checkbox" id="CE1" name="CE1" value="CE">
+                    <label style="float:left" for="CE1"> Customer Education</label>
+                </div>
+                <div>
+
+                    <textarea id="text" rows="4" cols="50" style="overflow:scroll"
+                        placeholder="comment here..."></textarea>
+
+                </div>
+
+
+                <div class="button" style="display: inline-flex;padding-inline: 30px;">
+                    <button id="backhome"><a href="index.html"
+                            style="text-decoration:none;color:black;font-weight:bold;">Back</a></button>
+                    <button id="send" style="color: green;font-weight:bold;" onclick="message()">Send</button>
+
+                </div>
+
+            </form>
+        </div>
+    </center>
+
+
+    <footer>
+        <p>Design by Dimple Sai Gurivelli (dsgurivelli@gainsight.com)
+            <a href="https://www.linkedin.com/in/gurivelli-dimple-sai-6baa5621b/" class="fa fa-linkedin"></a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
