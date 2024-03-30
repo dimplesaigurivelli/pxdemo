@@ -28,7 +28,7 @@ function login() {
             
             {
               id:"1P02FZ38WSGGQ6IRNLTDJN7XVDANK6ZZXBZG",
-              name:Amazon
+              name:"Amazon"
             });
         }
         else if (a == "monica@gainsight.com") {
@@ -40,7 +40,7 @@ function login() {
             
             {
               id:"1P02FZ38WSGGQ6IRNLVGGN3HTZTXMPFD1TLB",
-              name:Cadbury
+              name:"Cadbury"
             });
         }
         else if (a == "chandler@gainsight.com") {
@@ -52,7 +52,7 @@ function login() {
             
             {
               id:"1P02FZ38WSGGQ6IRNLI9O46ZY0CG561W1KR8",
-              name:Microsoft
+              name:"Microsoft"
             });
         }
         else if (a == "ross@gainsight.com") {
@@ -64,7 +64,7 @@ function login() {
             
             {
               id:"1P02FZ38WSGGQ6IRNLK6DI49MP7LWY6YFUX4",
-              name:Myntra
+              name:"Myntra"
             });
         }
         else if (a == "phoebe@gainsight.com") {
@@ -76,7 +76,7 @@ function login() {
 
             {
               id:"1P02FZ38WSGGQ6IRNLYQBY4IR4D7C2IBV7X9",
-              name: Tata
+              name:"Tata"
             }
             );
         }
