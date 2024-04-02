@@ -126,19 +126,7 @@ function calculate() {
 function logout(){
   window.aptrinsic('reset');
 }
-/*
-function login(form) {
-  if (form.UserEmail.value=="dsgurivelli@gainsight.com")
-   { 
-  if (form.Password.value=="nopassword") {              
-  location="index.html" 
-  } else {
-  alert("Incorrect Password")
-  }
-  } 
-  else {  alert("Incorrect Email")
-  }
-  } */
+
 
 
 
