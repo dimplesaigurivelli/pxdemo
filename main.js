@@ -14,12 +14,12 @@ function login() {
   
 
   const accounts = ["1P02FZ38WSGGQ6IRNLTDJN7XVDANK6ZZXBZG", "1P02FZ38WSGGQ6IRNLVGGN3HTZTXMPFD1TLB", "1P02FZ38WSGGQ6IRNLI9O46ZY0CG561W1KR8", "1P02FZ38WSGGQ6IRNLK6DI49MP7LWY6YFUX4", "1P02FZ38WSGGQ6IRNLYQBY4IR4D7C2IBV7X9"];
-  const mailId = ["dsgurivelli@gainsight.com", "monica@gainsight.com", "chandler@gainsight.com", "ross@gainsight.com", "phoebe@gainsight.com"];
+  const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com"];
 
   for (var i = 0; i < accounts.length; i++) {
     if (a == mailId[i]) {
         var userid = mailId[i].substring(4, 9);
-        if (a == "dsgurivelli@gainsight.com") {
+        if (a == "dimple@gmail.com") {
           aptrinsic("identify",
             {
               id: userid,
@@ -31,7 +31,7 @@ function login() {
               name:"Amazon"
             });
         }
-        else if (a == "monica@gainsight.com") {
+        else if (a == "monica@gmail.com") {
           aptrinsic("identify",
             {
               id: userid,
@@ -43,7 +43,7 @@ function login() {
               name:"Cadbury"
             });
         }
-        else if (a == "chandler@gainsight.com") {
+        else if (a == "chandler@gmail.com") {
           aptrinsic("identify",
             {
               id: userid,
@@ -55,7 +55,7 @@ function login() {
               name:"Microsoft"
             });
         }
-        else if (a == "ross@gainsight.com") {
+        else if (a == "ross@gmail.com") {
           aptrinsic("identify",
             {
               id: userid,
@@ -67,7 +67,7 @@ function login() {
               name:"Myntra"
             });
         }
-        else if (a == "phoebe@gainsight.com") {
+        else if (a == "phoebe@gmail.com") {
           aptrinsic("identify",
             {
               id: userid,
