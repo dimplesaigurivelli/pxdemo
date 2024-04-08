@@ -13,7 +13,7 @@ function login() {
   var a = document.getElementById('UserEmail').value;
   
 
-  const accounts = ["1P02FZ38WSGGQ6IRNLTDJN7XVDANK6ZZXBZG", "1P02FZ38WSGGQ6IRNLVGGN3HTZTXMPFD1TLB", "1P02FZ38WSGGQ6IRNLI9O46ZY0CG561W1KR8", "1P02FZ38WSGGQ6IRNLK6DI49MP7LWY6YFUX4", "1P02FZ38WSGGQ6IRNLYQBY4IR4D7C2IBV7X9"];
+  const accounts = ["1001", "1002", "1003", "1004", "1005"];
   const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com"];
 
   for (var i = 0; i < accounts.length; i++) {
@@ -27,7 +27,7 @@ function login() {
             },
             
             {
-              id:"1P02FZ38WSGGQ6IRNLTDJN7XVDANK6ZZXBZG",
+              id:"1001",
               name:"Amazon"
             });
 
@@ -41,7 +41,7 @@ function login() {
             },
             
             {
-              id:"1P02FZ38WSGGQ6IRNLVGGN3HTZTXMPFD1TLB",
+              id:"1002",
               name:"Cadbury"
             });
             aptrinsic('set', 'globalContext', {"package": "elite"});
@@ -54,7 +54,7 @@ function login() {
             },
             
             {
-              id:"1P02FZ38WSGGQ6IRNLI9O46ZY0CG561W1KR8",
+              id:"1003",
               name:"Microsoft"
             });
             aptrinsic('set', 'globalContext', {"package": "premier"});
@@ -67,7 +67,7 @@ function login() {
             },
             
             {
-              id:"1P02FZ38WSGGQ6IRNLK6DI49MP7LWY6YFUX4",
+              id:"1004",
               name:"Myntra"
             });
             aptrinsic('set', 'globalContext', {"package": "standard"});
@@ -80,7 +80,7 @@ function login() {
             },
 
             {
-              id:"1P02FZ38WSGGQ6IRNLYQBY4IR4D7C2IBV7X9",
+              id:"1005",
               name:"Tata"
             }
             );
