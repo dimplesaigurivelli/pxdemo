@@ -13,7 +13,7 @@ function login() {
   var a = document.getElementById('UserEmail').value;
   
 
-  const accounts = ["1001", "1002", "1003", "1004", "1005"];
+  const accounts = ["1P02FZ38WSGGQ6IRNLTDJN7XVDANK6ZZXBZG", "1P02FZ38WSGGQ6IRNLVGGN3HTZTXMPFD1TLB", "1P02FZ38WSGGQ6IRNLI9O46ZY0CG561W1KR8", "1P02FZ38WSGGQ6IRNLK6DI49MP7LWY6YFUX4", "1P02FZ38WSGGQ6IRNLYQBY4IR4D7C2IBV7X9"];
   const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com"];
 
   for (var i = 0; i < accounts.length; i++) {
@@ -27,9 +27,11 @@ function login() {
             },
             
             {
-              id:"1001",
+              id:"1P02FZ38WSGGQ6IRNLTDJN7XVDANK6ZZXBZG",
               name:"Amazon"
             });
+
+            aptrinsic('set', 'globalContext', {"package": "elite"});
         }
         else if (a == "monica@gmail.com") {
           aptrinsic("identify",
@@ -39,9 +41,10 @@ function login() {
             },
             
             {
-              id:"1002",
+              id:"1P02FZ38WSGGQ6IRNLVGGN3HTZTXMPFD1TLB",
               name:"Cadbury"
             });
+            aptrinsic('set', 'globalContext', {"package": "elite"});
         }
         else if (a == "chandler@gmail.com") {
           aptrinsic("identify",
@@ -51,9 +54,10 @@ function login() {
             },
             
             {
-              id:"1003",
+              id:"1P02FZ38WSGGQ6IRNLI9O46ZY0CG561W1KR8",
               name:"Microsoft"
             });
+            aptrinsic('set', 'globalContext', {"package": "premier"});
         }
         else if (a == "ross@gmail.com") {
           aptrinsic("identify",
@@ -63,9 +67,10 @@ function login() {
             },
             
             {
-              id:"1004",
+              id:"1P02FZ38WSGGQ6IRNLK6DI49MP7LWY6YFUX4",
               name:"Myntra"
             });
+            aptrinsic('set', 'globalContext', {"package": "standard"});
         }
         else if (a == "phoebe@gmail.com") {
           aptrinsic("identify",
@@ -75,10 +80,11 @@ function login() {
             },
 
             {
-              id:"1005",
+              id:"1P02FZ38WSGGQ6IRNLYQBY4IR4D7C2IBV7X9",
               name:"Tata"
             }
             );
+            aptrinsic('set', 'globalContext', {"package": "standard"});
         }
         alert("Your Unique Id is : " + " " + userid);
         location = "index.html"
