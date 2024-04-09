@@ -9,7 +9,7 @@
 })(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-Z57KBTR9DEZC-2");
 
 
-if(location = "visitor.html"){
+if(window, URL, "https://dimplesaigurivelli.github.io/pxdemo/visitor.html"){
   aptrinsic("identify",
             {
             },
