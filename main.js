@@ -14,7 +14,7 @@ if(location = "visitor.html"){
             {
             },
           )
-}
+        }
 
 function login() {
   var a = document.getElementById('UserEmail').value;
