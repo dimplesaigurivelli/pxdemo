@@ -14,10 +14,10 @@ if(location = "https://dimplesaigurivelli.github.io/pxdemo/visitor.html"){
 
   aptrinsic("identify",
             {
-              id:"Visitor1"
+              id:"visitor"
             },
           )
-        }
+}
 
 function login() {
   var a = document.getElementById('UserEmail').value;
