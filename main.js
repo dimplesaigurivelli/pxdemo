@@ -8,16 +8,15 @@
   var c = t.getElementsByTagName("script")[0]; c.parentNode.insertBefore(r, c)
 })(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-Z57KBTR9DEZC-2");
 
-
-
+/*
 if(location = "https://dimplesaigurivelli.github.io/pxdemo/visitor.html"){
 
   aptrinsic("identify",
             {
-              id:"visitor"
+              id: "visitor"
             },
           )
-}
+} */
 
 function login() {
   var a = document.getElementById('UserEmail').value;
