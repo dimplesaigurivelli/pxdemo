@@ -9,6 +9,13 @@
 })(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-Z57KBTR9DEZC-2");
 
 
+if(location = "visitor.html"){
+  aptrinsic("identify",
+            {
+            },
+          )
+}
+
 function login() {
   var a = document.getElementById('UserEmail').value;
   
