@@ -41,6 +41,8 @@ function login() {
             });
 
             aptrinsic('set', 'globalContext', {"package": "elite"});
+            aptrinsic('track', 'userDetails', {"version" :111,"Launched" : true}); 
+
         }
         else if (a == "monica@gmail.com") {
           aptrinsic("identify",
@@ -54,6 +56,8 @@ function login() {
               name:"Cadbury"
             });
             aptrinsic('set', 'globalContext', {"package": "elite"});
+            aptrinsic('track', 'userDetails', {"version" :222,"Launched" : true}); 
+
         }
         else if (a == "chandler@gmail.com") {
           aptrinsic("identify",
@@ -67,6 +71,8 @@ function login() {
               name:"Microsoft"
             });
             aptrinsic('set', 'globalContext', {"package": "premier"});
+            aptrinsic('track', 'userDetails', {"version" :333,"Launched" : true}); 
+
         }
         else if (a == "ross@gmail.com") {
           aptrinsic("identify",
@@ -80,6 +86,8 @@ function login() {
               name:"Myntra"
             });
             aptrinsic('set', 'globalContext', {"package": "standard"});
+            aptrinsic('track', 'userDetails', {"version" :444,"Launched" : false}); 
+
         }
         else if (a == "phoebe@gmail.com") {
           aptrinsic("identify",
@@ -94,6 +102,8 @@ function login() {
             }
             );
             aptrinsic('set', 'globalContext', {"package": "standard"});
+            aptrinsic('track', 'userDetails', {"version" :555,"Launched" : false}); 
+
         }
         alert("Your Unique Id is : " + " " + userid);
         location = "index.html"
