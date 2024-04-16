@@ -20,15 +20,15 @@ if(location = "https://dimplesaigurivelli.github.io/pxdemo/visitor.html"){
 
 
 function aboutGC() {
-  aptrinsic('set', 'globalContext', {"versionNew": "g1"});
+  aptrinsic('set', 'user', {'URL' : 'about'});
 
 }
 function contactGC() {
-  aptrinsic('set', 'globalContext', {"versionNew": "g2"});
+  aptrinsic('set', 'user', {'URL' : 'contact'});
 
 }
 function bmiGC() {
-  aptrinsic('set', 'globalContext', {"versionNew": "g3"});
+  aptrinsic('set', 'user', {'URL' : 'bmi'});
 
 }
 
