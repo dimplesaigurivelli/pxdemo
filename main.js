@@ -18,6 +18,21 @@ if(location = "https://dimplesaigurivelli.github.io/pxdemo/visitor.html"){
           )
 } */
 
+
+function aboutGC() {
+  aptrinsic('set', 'globalContext', {"version": "g1"});
+
+}
+function contactGC() {
+  aptrinsic('set', 'globalContext', {"version": "g2"});
+
+}
+function bmiGC() {
+  aptrinsic('set', 'globalContext', {"version": "g3"});
+
+}
+
+
 function login() {
   var a = document.getElementById('UserEmail').value;
   
