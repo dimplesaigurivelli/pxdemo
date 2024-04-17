@@ -161,7 +161,7 @@ function calculate() {
 }
 
 function logout(){
-  window.aptrinsic('reset');
+  aptrinsic('reset');
 }
 
 
