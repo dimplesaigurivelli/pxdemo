@@ -47,13 +47,14 @@ function login() {
           aptrinsic("identify",
             {
               id: userid,
-              email: a
+              email: a,
+              "firstName": "dimple"
             },
             
             {
               id:"1001",
               name:"Amazon",
-              "firstName": "dimple"
+             
 
             });
 
@@ -64,13 +65,14 @@ function login() {
           aptrinsic("identify",
             {
               id: userid,
-              email: a
+              email: a,
+              "firstName": "monica"
             },
             
             {
               id:"1002",
               name:"Cadbury",
-              "firstName": "monica"
+          
             });
             aptrinsic('set', 'globalContext', {"package": "elite"});
 
@@ -79,13 +81,14 @@ function login() {
           aptrinsic("identify",
             {
               id: userid,
-              email: a
+              email: a,
+              "firstName":"chandler"
             },
             
             {
               id:"1003",
               name:"Microsoft",
-              "firstName":"chandler"
+             
             });
             aptrinsic('set', 'globalContext', {"package": "premier"});
 
@@ -94,13 +97,14 @@ function login() {
           aptrinsic("identify",
             {
               id: userid,
-              email: a
+              email: a,
+              "firstName":"ross"
             },
             
             {
               id:"1004",
               name:"Myntra",
-              "firstName":"ross"
+            
             });
             aptrinsic('set', 'globalContext', {"package": "standard"});
 
@@ -109,13 +113,14 @@ function login() {
           aptrinsic("identify",
             {
               id: userid,
-              email: a
+              email: a,
+              "firstName":"phoebe"
             },
 
             {
               id:"1005",
               name:"Tata",
-              "firstName":"phoebe"
+             
             }
             );
             aptrinsic('set', 'globalContext', {"package": "standard"});
@@ -126,13 +131,14 @@ function login() {
           aptrinsic("identify",
             {
               id: userid,
-              email: a
+              email: a,
+              "firstName":"dimplesai"
             },
 
             {
               id:"1006",
               name:"Apple",
-              "firstName":"dimple"
+             
             }
             );
             aptrinsic('set', 'globalContext', {"package": "standard"});
