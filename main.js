@@ -37,8 +37,8 @@ function login() {
   var a = document.getElementById('UserEmail').value;
   
 
-  const accounts = ["1001", "1002", "1003", "1004", "1005"];
-  const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com"];
+  const accounts = ["1001", "1002", "1003", "1004", "1005","1006"];
+  const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com","dimplesaig@gmail.com"];
 
   for (var i = 0; i < accounts.length; i++) {
     if (a == mailId[i]) {
@@ -52,7 +52,9 @@ function login() {
             
             {
               id:"1001",
-              name:"Amazon"
+              name:"Amazon",
+              firstName: "dimple"
+
             });
 
             aptrinsic('set', 'globalContext', {"package": "elite"});
@@ -67,7 +69,8 @@ function login() {
             
             {
               id:"1002",
-              name:"Cadbury"
+              name:"Cadbury",
+              firstName: "monica"
             });
             aptrinsic('set', 'globalContext', {"package": "elite"});
 
@@ -81,7 +84,8 @@ function login() {
             
             {
               id:"1003",
-              name:"Microsoft"
+              name:"Microsoft",
+              firstName:"chandler"
             });
             aptrinsic('set', 'globalContext', {"package": "premier"});
 
@@ -95,7 +99,8 @@ function login() {
             
             {
               id:"1004",
-              name:"Myntra"
+              name:"Myntra",
+              firstName:"ross"
             });
             aptrinsic('set', 'globalContext', {"package": "standard"});
 
@@ -109,7 +114,25 @@ function login() {
 
             {
               id:"1005",
-              name:"Tata"
+              name:"Tata",
+              firstName:"phoebe"
+            }
+            );
+            aptrinsic('set', 'globalContext', {"package": "standard"});
+
+        }
+
+        else if (a == "dimplesaig@gmail.com") {
+          aptrinsic("identify",
+            {
+              id: userid,
+              email: a
+            },
+
+            {
+              id:"1006",
+              name:"Apple",
+              firstName:"dimple"
             }
             );
             aptrinsic('set', 'globalContext', {"package": "standard"});
