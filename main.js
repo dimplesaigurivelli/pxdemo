@@ -53,7 +53,7 @@ function login() {
             {
               id:"1001",
               name:"Amazon",
-              firstName: "dimple"
+              "firstName": "dimple"
 
             });
 
@@ -70,7 +70,7 @@ function login() {
             {
               id:"1002",
               name:"Cadbury",
-              firstName: "monica"
+              "firstName": "monica"
             });
             aptrinsic('set', 'globalContext', {"package": "elite"});
 
@@ -85,7 +85,7 @@ function login() {
             {
               id:"1003",
               name:"Microsoft",
-              firstName:"chandler"
+              "firstName":"chandler"
             });
             aptrinsic('set', 'globalContext', {"package": "premier"});
 
@@ -100,7 +100,7 @@ function login() {
             {
               id:"1004",
               name:"Myntra",
-              firstName:"ross"
+              "firstName":"ross"
             });
             aptrinsic('set', 'globalContext', {"package": "standard"});
 
@@ -115,7 +115,7 @@ function login() {
             {
               id:"1005",
               name:"Tata",
-              firstName:"phoebe"
+              "firstName":"phoebe"
             }
             );
             aptrinsic('set', 'globalContext', {"package": "standard"});
@@ -132,7 +132,7 @@ function login() {
             {
               id:"1006",
               name:"Apple",
-              firstName:"dimple"
+              "firstName":"dimple"
             }
             );
             aptrinsic('set', 'globalContext', {"package": "standard"});
