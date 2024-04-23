@@ -49,7 +49,15 @@
 
 </div>
 
-
-
+<label for="selecting">Select any port sweeeet:</label>
+<div class="dropdown">
+    <div class="dropdown-toggle" onclick="toggleDropdown()">Select here</div>
+    <div class="dropdown-menu" id="dropdownMenu">
+      <div class="dropdown-item" onclick="selectOption('portA')">portA</div>
+      <div class="dropdown-item" onclick="selectOption('portB')">portB</div>
+      <div class="dropdown-item" onclick="selectOption('portC')">portC</div>
+      <div class="dropdown-item" onclick="selectOption('portD')">portD</div>
+    </div>
+  </div>
 </body>
 </html>

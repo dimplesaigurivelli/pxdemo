@@ -11,6 +11,27 @@
 
 
 
+function toggleDropdown() {
+  const dropdownMenu = document.getElementById("dropdownMenu");
+  dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+}
+
+
+var selectedValue = null;
+function selectOption(value) {
+  if (selectedValue !== value) {
+    selectedValue = value;
+    document.getElementsByClassName("dropdown-toggle")[0].innerText = selectedValue;
+    toggleDropdown();
+    aptrinsic('track', 'ports', {
+      portName: value,
+    });
+  }
+}
+
+
+
+
 function PXPageTimer(maxSecondsTracked, trackPagesOverMax) {
   this.pageName = null;
   this.startTime = null;
@@ -107,6 +128,7 @@ function login() {
     if (a == mailId[i]) {
         var userid = mailId[i].substring(4, 9);
         if (a == "dimple@gmail.com") {
+          
           aptrinsic("identify",
             {
               id: userid,
@@ -125,6 +147,7 @@ function login() {
 
         }
         else if (a == "monica@gmail.com") {
+         
           aptrinsic("identify",
             {
               id: userid,
@@ -141,6 +164,7 @@ function login() {
 
         }
         else if (a == "chandler@gmail.com") {
+         
           aptrinsic("identify",
             {
               id: userid,
@@ -157,6 +181,7 @@ function login() {
 
         }
         else if (a == "ross@gmail.com") {
+          
           aptrinsic("identify",
             {
               id: userid,
@@ -173,6 +198,7 @@ function login() {
 
         }
         else if (a == "phoebe@gmail.com") {
+         
           aptrinsic("identify",
             {
               id: userid,
@@ -191,6 +217,7 @@ function login() {
         }
 
         else if (a == "dimplesaig@gmail.com") {
+          
           aptrinsic("identify",
             {
               id: userid,
