@@ -19,15 +19,15 @@ function toggleDropdown() {
 
 var selectedValue = null;
 function selectOption(value) {
-  // if (selectedValue !== value) {
-  //   selectedValue = value;
+    if (selectedValue !== value) {
+      selectedValue = value;
     document.getElementsByClassName("dropdown-toggle")[0].innerText = selectedValue;
     toggleDropdown();
     aptrinsic('track', 'ports', {
       portName: value,
      });
   }
-// }
+ }
 
 
 
