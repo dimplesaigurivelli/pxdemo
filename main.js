@@ -146,6 +146,26 @@ function login() {
             aptrinsic('set', 'globalContext', {"package": "elite"});
 
         }
+
+        else if(a == "dimple@gmail.com") {
+          
+          aptrinsic("identify",
+            {
+              id: userid,
+              email: a,
+              "firstName": "dimple1"
+            },
+            
+            {
+              id:"1001",
+              name:"AmazonNew",
+             
+
+            });
+
+            aptrinsic('set', 'globalContext', {"package": "elite"});
+
+        }
         else if (a == "monica@gmail.com") {
          
           aptrinsic("identify",
