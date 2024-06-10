@@ -1,4 +1,18 @@
+.grid-container {
+  display: grid;
+  height: 200px;
+  align-content: start;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
 
+.grid-container > div {
+  background-color: rgba(3, 2, 2, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 .dropdown {
   position: relative;
   display: inline-block;
