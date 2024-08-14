@@ -122,7 +122,7 @@ function login() {
   
 
   const accounts = ["1001", "1002", "1003", "1004", "1005","1006"];
-  const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com","dimplesaig@gmail.com"];
+  const mailId = ["dimple@gmail.com", "monica@gmail.com", "chandler@gmail.com", "ross@gmail.com", "phoebe@gmail.com","dimple23@gmail.com","dimplesaig@gmail.com"];
 
   for (var i = 0; i < accounts.length; i++) {
     if (a == mailId[i]) {
