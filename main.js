@@ -217,6 +217,24 @@ function login() {
             aptrinsic('set', 'globalContext', {"package": "standard"});
 
         }
+ else if (a == "dimple23@gmail.com") {
+          
+          aptrinsic("identify",
+            {
+              id: userid,
+              email: a,
+              "firstName":"dimple"
+            },
+
+            {
+              id:"1123",
+              name:"Sony",
+             
+            }
+            );
+            aptrinsic('set', 'globalContext', {"package": "standard"});
+
+        }
 
         else if (a == "dimplesaig@gmail.com") {
           
