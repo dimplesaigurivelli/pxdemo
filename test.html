@@ -38,6 +38,26 @@
 
 </div>
 
+<!-- Using our custom tag -->
+    <custom-greeting name="John"></custom-greeting>
+    <script>
+        // Define a class for the custom element
+        class CustomGreeting extends HTMLElement {
+            constructor() {
+                super();
+                // Attach a shadow DOM to isolate styles and content
+                this.attachShadow({ mode: 'open' });
+                // Create an element inside the shadow DOM
+                const wrapper = document.createElement('div');
+                wrapper.textContent = `Hello, ${this.getAttribute('name')}!`;
+                // Add the content to the shadow DOM
+                this.shadowRoot.appendChild(wrapper);
+            }
+        }
+        // Define the new element
+        customElements.define('custom-greeting', CustomGreeting);
+    </script>
+
         <div class="grid-container">
             <div class="test1"> container1
                 <div class="sample1" style="margin-bottom:50px"> this is for badge purpose1
