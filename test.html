@@ -37,26 +37,70 @@
     <button id="b5" style="margin-right:15px;text-decoration:none;color:black;font-weight:bold;">button5</button>
 
 </div>
+ <!-- Use custom button tag -->
+    <custom-button label="Click Me!"></custom-button>
 
-<!-- Using our custom tag -->
-    <custom-greeting name="John"></custom-greeting>
     <script>
-        // Define a class for the custom element
-        class CustomGreeting extends HTMLElement {
+        // Define the custom element
+        class CustomButton extends HTMLElement {
             constructor() {
                 super();
-                // Attach a shadow DOM to isolate styles and content
-                this.attachShadow({ mode: 'open' });
-                // Create an element inside the shadow DOM
-                const wrapper = document.createElement('div');
-                wrapper.textContent = `Hello, ${this.getAttribute('name')}!`;
-                // Add the content to the shadow DOM
-                this.shadowRoot.appendChild(wrapper);
+                // Attach shadow DOM
+                const shadow = this.attachShadow({ mode: 'open' });
+
+                // Create button element
+                const button = document.createElement('button');
+                button.textContent = this.getAttribute('label') || 'Default';
+
+                // Add button styling
+                const style = document.createElement('style');
+                style.textContent = `
+                    button {
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        background-color: #4CAF50;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    button:hover {
+                        background-color: #45a049;
+                    }
+                `;
+
+                // Append elements to shadow DOM
+                shadow.appendChild(style);
+                shadow.appendChild(button);
+            }
+
+            // Optional: Add custom behavior for the button
+            connectedCallback() {
+                this.shadowRoot.querySelector('button').addEventListener('click', () => {
+                    alert('Button clicked!');
+                });
+            }
+
+            disconnectedCallback() {
+                this.shadowRoot.querySelector('button').removeEventListener('click', this);
             }
         }
-        // Define the new element
-        customElements.define('custom-greeting', CustomGreeting);
+
+        // Register the custom element
+        customElements.define('custom-button', CustomButton);
     </script>
+
+
+
+
+
+
+
+
+
+
+        
 
         <div class="grid-container">
             <div class="test1"> container1
