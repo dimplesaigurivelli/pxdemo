@@ -12,7 +12,7 @@ head.appendChild(script);
 function handler1(){
   console. log ("chatbot added");
 }
-
+}
 
 (function (n, t, a, e, co) {
   var i = "aptrinsic"; n[i] = n[i] || function () {
