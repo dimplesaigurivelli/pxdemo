@@ -1,5 +1,5 @@
-var config={kcAllowedFuncNames: ["zendeskchat"]};
-function zendeskchat(){
+var config={kcAllowedFuncNames: ["triggerAnimation"]};
+function triggerAnimation(){
 const box = document.getElementById('box');
   if (box) {
     // Remove the class if it exists to re-trigger
