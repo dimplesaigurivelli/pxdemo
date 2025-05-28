@@ -8,8 +8,10 @@ script.src="https://static.zdassets.com/ekr/snippet.js?key=f46f2180-8163-4da7-8e
 script.onreadystatechange= handler1;
 script.onload = handler1;
 head.appendChild(script);
+
 function handler1(){
-console. log ("chatbot added");
+  console. log ("chatbot added");
+}
 
 
 (function (n, t, a, e, co) {
