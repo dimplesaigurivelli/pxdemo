@@ -11,9 +11,6 @@ const box = document.getElementById('box');
     // Add the class to trigger animation
     box.classList.add('animate');
   }
-function handler1(){
-  console. log ("chatbot added");
-}
 }
 
 (function (n, t, a, e, co) {
