@@ -1,14 +1,16 @@
 var config={kcAllowedFuncNames: ["zendeskchat"]};
 function zendeskchat(){
-// api call for the chat bot
-var head = document.getElementsByTagName( 'head' ) [0];
-var script = document.createElement('script');
-script.id = "ze-snippet";
-script.src="https://static.zdassets.com/ekr/snippet.js?key=f46f2180-8163-4da7-8ed2-3cd88d17fe22" ;
-script.onreadystatechange= handler1;
-script.onload = handler1;
-head.appendChild(script);
+const box = document.getElementById('box');
+  if (box) {
+    // Remove the class if it exists to re-trigger
+    box.classList.remove('animate');
+    
+    // Force reflow to restart animation
+    void box.offsetWidth;
 
+    // Add the class to trigger animation
+    box.classList.add('animate');
+  }
 function handler1(){
   console. log ("chatbot added");
 }
