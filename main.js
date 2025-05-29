@@ -1,4 +1,19 @@
-var config={kcAllowedFuncNames: ["chatbotTest"]};
+var config={kcAllowedFuncNames: ["zendeskchat"]};
+function zendeskchat(){
+// api call for the chat bot
+var head = document.getElementsByTagName( 'head' ) [0];
+var script = document.createElement('script');
+script.id = "ze-snippet";
+script.src="https://static.zdassets.com/ekr/snippet.js?key=325c6c7f-2396-4b87-b88d-f6a78c0a7134" ;
+script.onreadystatechange= handler1;
+script.onload = handler1;
+head.appendChild(script);
+
+function handler1(){
+  console. log ("chatbot added");
+}
+}
+
 
 function triggerAnimation(){
 const box = document.getElementById('box');
