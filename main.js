@@ -1,4 +1,15 @@
-var config={kcAllowedFuncNames: ["triggerAnimation"]};
+var config={kcAllowedFuncNames: ["chatbotTest"]};
+function chatbotTest(){
+const chatbotBtn = document.getElementById('chatbot-btn');
+  const chatbotWindow = document.getElementById('chatbot-window');
+
+  chatbotBtn.addEventListener('click', () => {
+    chatbotWindow.style.display =
+      chatbotWindow.style.display === 'none' ? 'flex' : 'none';
+  })
+}
+
+
 function triggerAnimation(){
 const box = document.getElementById('box');
   if (box) {
