@@ -1,7 +1,6 @@
 var config={kcAllowedFuncNames: ["chatbotTest"]};
 function chatbotTest(){
-const chatbot = document.getElementById('chatbot-window');
-    chatbot.style.display = 'flex'; // Show the chatbot window
+    document.getElementById('chatbot-window').style.display = 'flex';
 }
 
 
