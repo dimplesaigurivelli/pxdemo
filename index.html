@@ -34,13 +34,20 @@
       </div>
 
 
-<!-- Button to trigger chatbotTest() -->
-<button onclick="chatbotTest()">Start Chatbot</button>
+<!-- Trigger button -->
+<button id="start-chatbot-btn" onclick="chatbotTest()">💬</button>
 
-<!-- Placeholder for chatbot window -->
+<!-- Chatbot window -->
 <div id="chatbot-window">
-  <div id="chatbot-header">Chatbot</div>
-  <div id="chatbot-body">👋 Hi! How can I assist you?</div>
+  <div id="chatbot-header">
+    💬 Chatbot
+    <span id="chatbot-close" onclick="document.getElementById('chatbot-window').style.display = 'none'">×</span>
+  </div>
+  <div id="chatbot-body">
+    <div class="chat-msg chatbot-msg">Hi there! How can I assist you today?</div>
+    <div class="chat-msg user-msg">Can you tell me about your services?</div>
+    <div class="chat-msg chatbot-msg">Sure! We offer 24/7 support, live chat, and more.</div>
+  </div>
 </div>
           
 
