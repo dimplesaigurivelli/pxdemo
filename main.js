@@ -1,12 +1,7 @@
 var config={kcAllowedFuncNames: ["chatbotTest"]};
 function chatbotTest(){
-const chatbotBtn = document.getElementById('chatbot-btn');
-  const chatbotWindow = document.getElementById('chatbot-window');
-
-  chatbotBtn.addEventListener('click', () => {
-    chatbotWindow.style.display =
-      chatbotWindow.style.display === 'none' ? 'flex' : 'none';
-  })
+const chatbot = document.getElementById('chatbot-window');
+    chatbot.style.display = 'flex'; // Show the chatbot window
 }
 
 
