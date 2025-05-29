@@ -1,4 +1,4 @@
-#chatbot-window {
+.chatbot-window {
       position: fixed;
       bottom: 90px;
       right: 20px;
@@ -6,7 +6,7 @@
       height: 420px;
       background: #fefefe;
       border: 1px solid #ccc;
-      display: none;
+      display: flex;
       flex-direction: column;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@
       border-radius: 8px;
     }
 
-    #chatbot-header {
+    .chatbot-header {
       background: #007bff;
       color: white;
       padding: 12px;
@@ -26,13 +26,13 @@
       border-top-right-radius: 8px;
     }
 
-    #chatbot-close {
+    .chatbot-close {
       cursor: pointer;
       font-weight: bold;
       font-size: 18px;
     }
 
-    #chatbot-body {
+    .chatbot-body {
       padding: 10px;
       overflow-y: auto;
       flex: 1;
@@ -57,7 +57,6 @@
       align-self: flex-end;
     }
 
-    /* Chatbot button */
     #start-chatbot-btn {
       position: fixed;
       bottom: 20px;
@@ -72,8 +71,6 @@
       cursor: pointer;
       z-index: 1000;
     }
-
-
 
 .animate {
   animation: bounce 0.5s ease;
