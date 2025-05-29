@@ -1,25 +1,4 @@
 var config={kcAllowedFuncNames: ["chatbotTest"]};
-function chatbotTest(){
-   if (document.getElementById('chatbot-window')) return; // Prevent multiple inserts
-
-    const chatbotHTML = `
-      <div id="chatbot-window" class="chatbot-window">
-        <div class="chatbot-header">
-          💬 Chatbot
-          <span class="chatbot-close" onclick="document.getElementById('chatbot-window').remove()">×</span>
-        </div>
-        <div class="chatbot-body">
-          <div class="chat-msg chatbot-msg">Hi there! How can I assist you today?</div>
-          <div class="chat-msg user-msg">Can you tell me about your services?</div>
-          <div class="chat-msg chatbot-msg">Sure! We offer 24/7 support, live chat, and more.</div>
-        </div>
-      </div>
-    `;
-
-    document.body.insertAdjacentHTML('beforeend', chatbotHTML);
-  }
-}
-
 
 function triggerAnimation(){
 const box = document.getElementById('box');
