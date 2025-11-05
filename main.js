@@ -35,7 +35,7 @@ const box = document.getElementById('box');
   }, n[i].p = e; n[i].c = co;
   var r = t.createElement("script"); r.async = !0, r.src = a + "?a=" + e;
   var c = t.getElementsByTagName("script")[0]; c.parentNode.insertBefore(r, c)
-})(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-Z57KBTR9DEZC-2", config);
+})(window, document, "https://web-sdk.aptrinsic.com/api/aptrinsic.js", "AP-Z57KBTR9DEZC-2", config,{"enableIdentifyFromIFrame":true});
 
 window['_fs_host'] = 'fullstory.com';
 window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
